@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to right, rgb(94, 52, 141) , rgb(35, 19, 53));
+  /* background-color: rgb(35, 19, 53); */
+  color: white;
+  text-align: center;
+}
+button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  background-color: rgb(70, 32, 119);
+  color: white;
+  border: 1px solid rgb(70, 32, 119);
+}
+
+button:hover,
+button:active {
+  background-color: rgb(69, 18, 136);
+  border-color: rgb(69, 18, 136);
+}
+
